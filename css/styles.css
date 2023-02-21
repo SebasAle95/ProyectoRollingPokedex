@@ -2,19 +2,23 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-} 
+}
+
 main{
     flex-grow: 1;
 }
+
 .detalle-fuego {
     margin-top: 10px;
 }
+
 .detalle-fuego span {
     padding: 4px 5px;
     color: #fff;
     background-color: #c50000;
     border-radius: 4px;
 }
+
 .detalle-fuego span:nth-child(2) {
     background-color: #ff5722;
 }
